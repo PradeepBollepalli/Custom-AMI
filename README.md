@@ -43,7 +43,7 @@ i.sudo systemctl enable httpd (This is used whenever server starts httpd automat
 ii. sudo systemctl start httpd. (This isto start httpd)
 iii. sudo systemctl status httpd. (This is to know whether httpd started or not.)
 
-<h3>Create </h3>
+<h3>Create Image </h3>
 
 1.Select instance--> Actions -->Image and Templates-->Create Image -->Provide name.
 2.Delete the instance with which we created AMI.
