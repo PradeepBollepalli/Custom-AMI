@@ -48,12 +48,14 @@ i.sudo systemctl enable httpd (This is used whenever server starts httpd automat
 ii. sudo systemctl start httpd. (This isto start httpd)
 iii. sudo systemctl status httpd. (This is to know whether httpd started or not.)
 
-<h3>Create Image </h3>
-![Screenshot (71)](https://user-images.githubusercontent.com/114085306/228600257-45731a03-5064-4a9a-8851-ecc540c0e331.png)
+<h3>Create Image</h3>
+
+![Screenshot (73)](https://user-images.githubusercontent.com/114085306/228606397-1e405fa7-1ef2-4017-9acc-ada6a22bbfee.png)
 
 1.Select instance--> Actions -->Image and Templates-->Create Image -->Provide name.
 
 2.Now take take the public IP Adderess  of the instance and and hit it on the internet you will see the output that you entered in the path /var/www/html/index.html
+![Screenshot (75)](https://user-images.githubusercontent.com/114085306/228605803-edcc14f1-394e-480c-a8cb-40f27684f1a4.png)
 
 2.Delete the instance with which we created AMI.
 ![Screenshot (68)](https://user-images.githubusercontent.com/114085306/228600501-c7178bbd-06f4-45c4-b5f5-0951101941f4.png)
