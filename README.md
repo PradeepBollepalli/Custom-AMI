@@ -50,6 +50,8 @@ iii. sudo systemctl status httpd. (This is to know whether httpd started or not.
 
 <h3>Create Image</h3>
 
+After installing all the tools we wanted in server, now lets go to instance in EC2 instances and click on that instance and create Image for Custom image as shown below.
+
 ![Screenshot (73)](https://user-images.githubusercontent.com/114085306/228606397-1e405fa7-1ef2-4017-9acc-ada6a22bbfee.png)
 
 1.Select instance--> Actions -->Image and Templates-->Create Image -->Provide name.
@@ -58,6 +60,9 @@ iii. sudo systemctl status httpd. (This is to know whether httpd started or not.
 ![Screenshot (75)](https://user-images.githubusercontent.com/114085306/228605803-edcc14f1-394e-480c-a8cb-40f27684f1a4.png)
 
 2.Delete the instance with which we created AMI.
+
+Here we are deleting this instance because we already created a image from existing image.Now by using that image we can launch another instance. 
+
 ![Screenshot (68)](https://user-images.githubusercontent.com/114085306/228600501-c7178bbd-06f4-45c4-b5f5-0951101941f4.png)
 
 
@@ -66,3 +71,6 @@ Launch EC2 Instance using that image.
 EC2 dashboard --> AMI's --> Select AMI -->Launch instance from AMI.
 ![Screenshot (74)](https://user-images.githubusercontent.com/114085306/228600653-e8b2efe8-3437-422f-9b84-59f5e5523ebd.png)
 
+
+<h3> This process is called manual process of creating Custom images from EC2 UI , We can do that by using another method using Harshicorp.
+And all taht process done using automating script. We can see that in next project.</h3>
