@@ -1,6 +1,6 @@
 #CUSTOM-AMI#
 
-Welcome to the Custom-AMI wiki!
+Welcome to the Custom-AMI 
 
 What is a custom AMI?
 
